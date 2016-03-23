@@ -1,0 +1,138 @@
+@media screen and (max-width: 767px) {
+      #home .control-nav {
+        position: fixed;
+        right: 20px;
+        top: 20px;
+        display: block;
+        width: 30px;
+        padding: 5px 0;
+        border: solid #333;
+        border-width: 3px 0;
+        z-index: 2;
+        cursor: pointer;
+      }
+     
+      #home  .control-nav:before {
+        content: "";
+        display: block;
+        height: 3px;
+        background: #333;
+      }
+     
+      #home  .control-nav-close {
+        position: fixed;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        display: block;
+        z-index: 1;
+        background: rgba(0,0,0,0.4);
+        -webkit-transition: all 500ms ease;
+        transition: all 500ms ease;
+        -webkit-transform: translate(100%, 0);
+        -ms-transform: translate(100%, 0);
+        transform: translate(100%, 0);
+      }
+     
+      #home #menu-bottom {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 250px;
+        border-left: 1px solid #ccc;
+        background-color:#22a7f0;
+        overflow-x: auto;
+        z-index: 2;
+        -webkit-transition: all 500ms ease;
+        transition: all 500ms ease;
+        -webkit-transform: translate(100%, 0);
+        -ms-transform: translate(100%, 0);
+        transform: translate(100%, 0);
+      }
+ 
+
+    #control-nav:checked ~ .control-nav-close {
+      -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+      transform: translate(0, 0);
+    }
+     
+    #control-nav:checked ~ #menu-bottom {
+      -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+      transform: translate(0, 0);
+    }
+
+    .home .chamada{
+        left: 0px;
+    }
+
+    .page{
+       padding: 20px 0px 20px 0px;
+    }
+
+    .page_title h2{
+        text-align: left;
+    }
+
+    .hexagon{
+        width: 100%;
+    }
+
+    .hexagon::before,.hexagon::after{
+        border-left: 140px solid transparent;
+        border-right: 140px solid transparent;
+    }
+
+    .circulo-social{
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        margin-right: 10px; 
+    }
+
+    .itens_lista_right li{
+        padding: 0 0px 20px 0;
+        text-align: left;
+    }
+
+    .itens_lista_left i{
+        left: none;
+        right: 0;
+    }
+
+    .itens_lista_left li {
+        padding: 0 0px 20px 0px;
+        text-align: left;
+    }
+
+    blockquote{
+        width: 100%;
+    }
+
+    blockquote p{
+        font-size: 13px;
+    }
+
+    .flickity-prev-next-button{
+        display: none;
+    }
+
+    #menu-bottom .menu-direita{
+        background-color:#22a7f0;
+        width: 100%;
+        margin-right: 0px;
+    }
+     #menu-bottom .menu-direita li{
+        border: none
+    }
+
+    .circulos{
+        left: 20%;
+        margin-top: 20px;
+    }
+    
+
+}
