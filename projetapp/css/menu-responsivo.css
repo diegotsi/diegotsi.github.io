@@ -1,4 +1,8 @@
 @media screen and (max-width: 767px) {
+
+      #menu-bottom{
+        min-height: auto;
+      }
       #home .control-nav {
         position: fixed;
         right: 20px;

@@ -5,18 +5,9 @@ body{
 	font-size: 16px;
 }
 
-.teste{
-	height: 1200px;
-	background: #00aeff;
-background: -moz-linear-gradient(top, #00aeff 0%, #00e0a4 100%);
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00aeff), color-stop(100%,#00e0a4));
-background: -webkit-linear-gradient(top, #00aeff 0%,#00e0a4 100%);
-background: -o-linear-gradient(top, #00aeff 0%,#00e0a4 100%);
-background: -ms-linear-gradient(top, #00aeff 0%,#00e0a4 100%);
-background: linear-gradient(to bottom, #00aeff 0%,#00e0a4 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00aeff', endColorstr='#00e0a4',GradientType=0 );
+.blue{
+	color:#00a8fb;
 }
-
 h1, h2, h3, h4 {
     text-transform: uppercase;
     color: #ccc;
@@ -59,7 +50,7 @@ ul,li{
 #menu-bottom{
 	
 	width:100%; 
-	min-height:75px; 
+	height:75px; 
 	background: #1a1a1a;
     border-bottom: 2px solid #111;
 	color: #FFFFFF;
@@ -79,17 +70,19 @@ ul,li{
 	border-bottom: 2px solid #111;
 }
 
+.menu-direita li a{}
+
 #menu-bottom .menu-esquerda li{
 	padding: 10px 20px 20px 20px;
 	height: 65px;
 }
 
-.active{
-	border-color:#22A7F0;
+#menu-bottom .menu-direita li a.active{
+	color:#00a8fb;
 }
 
 #menu .menu-direita li:hover,#menu-bottom .menu-direita li:hover{
-	border-color:#22A7F0;
+	border-color:#00a8fb;
 	 transition: border-color 1s ease;
 	 color:#000;
 }
@@ -225,7 +218,7 @@ ul,li{
 }
 
 .title_left span{
-	color: #22A7F0;
+	color: #00a8fb;
 }
 #quem-somos p{
 	font-size: 16px;
@@ -242,7 +235,7 @@ ul,li{
   position: relative;
   width: 300px; 
   height: 173.21px;
-  background-color: #22a7f0;
+  background-color: #00a8fb;
   margin: 116.60px 0;
 }
 
@@ -257,13 +250,13 @@ ul,li{
 
 .hexagon:before {
   bottom: 100%;
-  border-bottom: 86.60px solid #22a7f0;
+  border-bottom: 86.60px solid #00a8fb;
 }
 
 .hexagon:after {
   top: 100%;
   width: 0;
-  border-top: 86.60px solid #22a7f0;
+  border-top: 86.60px solid #00a8fb;
 }
 
 i.icon.icon-bulb,i.icon.icon-screen-smartphone,i.icon.icon-layers {
@@ -371,7 +364,7 @@ border-color: #232323 transparent transparent transparent;
 
 .contato{
 	height: auto;
-	background-color: #22a7f0;
+	background-color: #00a8fb;
 }
 
 .contato .page_title h2{
@@ -541,7 +534,7 @@ footer .copyright p{
 }
 
 .circulo-social-footer:hover{
-	  background-color: #22a7f0;
+	  background-color: #00a8fb;
     -webkit-transition: background-color 500ms linear;
     -moz-transition: background-color 500ms linear;
     -o-transition: background-color 500ms linear;
@@ -615,7 +608,7 @@ footer .copyright p{
 }
 
 .home strong{
-	color: #22A7F0;
+	color: #00a8fb;
 }
 
 .home .chamada{
@@ -666,10 +659,10 @@ footer .copyright p{
 	position: absolute;
 	left: 0;
 	top: 0;
-	color: #22a7f0;
+	color: #00a8fb;
 }
 
 .item-list-left h4{
 	font-size: 25px;
-	color: #22a7f0;
+	color: #00a8fb;
 }
