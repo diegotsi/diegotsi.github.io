@@ -2089,6 +2089,43 @@ img{
 	background: #333333;
 }
 
+/*
+===============================================
+			10. Social Icons
+===============================================
+*/
+
+#zodioapp{
+	background-color:#df137a;
+}
+#zodioapp .page_title p{
+	color: #efefef;
+	margin-top:30px;
+	font-size:16px;
+	text-align:center;
+}
+
+.rowzia{
+	margin-top:40px;
+}
+#zodioapp .page_title span {
+	color: #fff;
+	border: 3px solid #fff;
+}
+
+#zodioapp .item-zodio h3{
+	text-align: center;
+	color:#fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+#zodioapp .item-zodio p{
+	color: #efefef;
+	margin-top:20px;
+	font-size: 14px;
+}
 
 /*
 ===============================================
